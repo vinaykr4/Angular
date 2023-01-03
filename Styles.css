@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*,*::before,*::after{
+    margin: 0%;
+    padding-left:1%;
+    padding-right:1%;
+    padding-top: 0.2%;
+}
+body{
+    height: 100vh;
+    font-family: "Roboto Slab", sans-serif;
+    background-color: black;
+}
+
+
+/*----------------Navbar Styling ------*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    width: 100%;
+}
+.navitem{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.navbar a{
+    text-decoration: none;
+}
+/*------------// Navbar Styling -------*/
+.One p{
+display: block;
+width: 60%;
+padding: 1px;
+}
+#One-Col{
+    width: 80%;
+    overflow: visible;
+}
+#Two-Col{
+    width: 40%;
+    display: flex;
+    overflow: visible;
+}
+.left h1{
+    font-size: 155px;
+}
+#Box{
+    margin-top: 120px;
+    width: max-content;
+}
+
+.position-absolute{
+  bottom:10px;
+  left: 20px;
+  background-color:transparent;
+  color: white;
+  padding-left: 25px;
+  padding-right: 20px;
+}
+.Right{
+    text-align: right;
+  bottom:0px;
+  right: 20px;
+  background-color:transparent;
+  color: white;
+  padding-right: 25px;
+  padding-right: 20px;
+}
+
+.Three h1{
+    font-size: 100px;
+}
+br{
+    color: aliceblue;
+    font-size: larger;
+}
+.cols{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
